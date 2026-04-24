@@ -1,0 +1,17 @@
+.claude/
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+
+# Other local projects — not part of landings
+ecomzy/
+ecomzyCL/
+tmp/
+$RECYCLE.BIN/
+ai-influencers/
+grants/
+
+# IDE
+.vscode/
+.idea/
