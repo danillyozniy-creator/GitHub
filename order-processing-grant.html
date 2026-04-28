@@ -135,7 +135,7 @@ nav.scrolled{box-shadow:0 2px 30px rgba(0,0,0,.4);background:rgba(17,17,20,.95)}
 @media(max-width:640px){.hero-fine,.fine-print{font-size:11px;white-space:nowrap}}
 
 /* === CTA BAND === */
-.cta-band{padding:80px 0;background:linear-gradient(135deg,var(--teal) 0%,#0F766E 100%)}
+.cta-band{padding:100px 0;background:linear-gradient(135deg,var(--teal) 0%,#0F766E 100%)}
 .cta-band h2{color:var(--white);margin-bottom:12px}
 .cta-band .body-text{color:rgba(255,255,255,.7)}
 
@@ -146,17 +146,17 @@ nav.scrolled{box-shadow:0 2px 30px rgba(0,0,0,.4);background:rgba(17,17,20,.95)}
 .faq-sub{font-size:16px;color:rgba(0,0,0,.45);max-width:560px;margin:0 auto}
 .faq-wrap{max-width:760px;margin:0 auto}
 .faq-item{border-bottom:1px solid rgba(0,0,0,.08)}
-.faq-q{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:15px 0;font-size:14px;font-weight:600;color:rgba(0,0,0,.75);cursor:pointer;transition:color .2s;user-select:none}
+.faq-q{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:15px 0;font-size:18px;font-weight:600;color:rgba(0,0,0,.75);cursor:pointer;transition:color .2s;user-select:none}
 .faq-q:hover{color:#111114}
 .faq-chevron{width:22px;height:22px;border-radius:50%;border:1px solid rgba(0,0,0,.12);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .3s;background:rgba(0,0,0,.03)}
 .faq-chevron svg{width:10px;height:10px;stroke:rgba(0,0,0,.4);fill:none;stroke-width:2;stroke-linecap:round;transition:transform .3s}
 .faq-item.open .faq-chevron{background:rgba(20,184,166,.15);border-color:rgba(20,184,166,.4)}
 .faq-item.open .faq-chevron svg{stroke:var(--teal-bright);transform:rotate(180deg)}
-.faq-a{font-size:13px;color:rgba(0,0,0,.55);line-height:1.7;max-height:0;overflow:hidden;transition:max-height .4s cubic-bezier(.22,1,.36,1),padding .3s}
+.faq-a{font-size:17px;color:rgba(0,0,0,.55);line-height:1.7;max-height:0;overflow:hidden;transition:max-height .4s cubic-bezier(.22,1,.36,1),padding .3s}
 .faq-item.open .faq-a{max-height:400px;padding-bottom:16px}
 
 /* === TRUST === */
-.trust{padding:40px 0;background:var(--warm);border-top:1px solid rgba(0,0,0,.06)}
+.trust{padding:100px 0;background:var(--warm);border-top:1px solid rgba(0,0,0,.06)}
 .trust-row{display:flex;justify-content:center;gap:40px;margin-bottom:16px;flex-wrap:wrap}
 .trust-item{text-align:center}
 .trust-item strong{display:block;font-size:14px;color:var(--text)}
@@ -212,7 +212,7 @@ nav.scrolled{box-shadow:0 2px 30px rgba(0,0,0,.4);background:rgba(17,17,20,.95)}
 }
 @media(max-width:768px){
   .nav-cta{display:none}
-  .hero{padding:120px 0 60px}
+  .hero{padding:100px 0 60px}
   .btn{width:100%;justify-content:center;font-size:15px;padding:16px 24px;max-width:100%}
   .btn-wrap{width:100%;max-width:100%}
   .hero-ctas{width:100%}
@@ -243,6 +243,9 @@ nav.scrolled{box-shadow:0 2px 30px rgba(0,0,0,.4);background:rgba(17,17,20,.95)}
   .dash-rotate-cube,.dash-glass-refraction,.dash-border-glow{display:none}
   /* product carousel mobile */
   .prod-stats{flex-wrap:wrap;gap:24px}
+  .winners,.benefits,.why-built,.featured-wins,.how,.psych,.numbers,.faq,.cta-band,.trust{padding-top:60px;padding-bottom:60px}
+  .winners + .how { padding-top:30px !important }
+  .winners:has(+ .how) { padding-bottom:30px !important }
 }
 
 /* === ANNOUNCE BAR (unified) === */
@@ -355,7 +358,7 @@ body.bar-hidden #navbar{top:0 !important}
 }
 
 /* === BENEFITS GRID (light) === */
-.benefits{padding:80px 0;background:var(--warm);position:relative}
+.benefits{padding:100px 0;background:var(--warm);position:relative}
 .benefits-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:1100px;margin:0 auto}
 .b-card{position:relative;padding:28px 26px 26px;background:#fff;border:1px solid rgba(0,0,0,.06);border-radius:18px;transition:transform .35s cubic-bezier(.22,1,.36,1),border-color .35s,box-shadow .35s;box-shadow:0 2px 10px rgba(0,0,0,.03);overflow:hidden}
 .b-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,transparent,var(--teal-bright),transparent);opacity:0;transition:opacity .35s}
@@ -389,7 +392,7 @@ body.bar-hidden #navbar{top:0 !important}
 
 
 /* === FEATURED TESTIMONIALS === */
-.featured-wins{padding:120px 0;background:#081412;position:relative;overflow:hidden}
+.featured-wins{padding:100px 0;background:#081412;position:relative;overflow:hidden}
 .psych:has(+.featured-wins){padding-bottom:50px}
 .featured-wins::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 50% 40% at 50% 50%,rgba(20,184,166,.06),transparent 70%);pointer-events:none}
 .featured-head{text-align:center;margin-bottom:56px;position:relative;z-index:1}
@@ -445,7 +448,7 @@ body.bar-hidden #navbar{top:0 !important}
 .psych-body strong{color:var(--text);font-weight:600}
 
 /* === NUMBERS STRIP === */
-.numbers{padding:80px 0}
+.numbers{padding:100px 0}
 .numbers-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:32px;max-width:1000px;margin:0 auto;text-align:center}
 .num-item{padding:20px 10px}
 .num-val{font-family:'Fraunces',serif;font-size:clamp(32px,3.5vw,48px);font-weight:700;color:var(--teal);line-height:1;letter-spacing:-.02em;margin-bottom:8px}
@@ -488,20 +491,20 @@ body.bar-hidden #navbar{top:0 !important}
 }
 @media(max-width:480px){.cta-note:has(svg),.footer-cta-note:has(svg),.hero-fine:has(svg),.fine-print:has(svg),.hero-note:has(svg),.lp-cta-note:has(svg){font-size:10px!important}}
 @media(max-width:380px){.cta-note:has(svg),.footer-cta-note:has(svg),.hero-fine:has(svg),.fine-print:has(svg),.hero-note:has(svg),.lp-cta-note:has(svg){font-size:9px!important}}
-</style>
-</head>
+.winners + .how{padding-top:50px}.winners:has(+ .how){padding-bottom:50px}</style>
+<style>.hero-badge{text-transform:uppercase!important;letter-spacing:.06em!important}</style></head>
 <body>
 
 <!-- ANNOUNCE BAR -->
 <div class="announce-bar">
-  <span class="pulse"></span><strong>$1,000 daily</strong><span class="ab-more"> <span class="sep">·</span> Order Processing Grant + $5,000 weekly Jackpot</span> <span class="sep">·</span> <a href="/free-online-store/">Claim yours &rarr;</a>
+  <span class="pulse"></span><strong>$1,000 daily</strong><span class="ab-more"> <span class="sep">·</span> Order Processing Grant + $5,000 weekly Jackpot</span> <span class="sep">·</span> <a href="https://ecomzy.com/free-online-store/">Claim yours &rarr;</a>
 </div>
 
 <!-- NAV -->
 <nav id="navbar">
   <div class="nav-inner">
-    <a href="/home/" class="nav-logo">ecomzy<span>.</span></a>
-    <a href="/free-online-store/" class="nav-cta">Start Your Free Store <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+    <a href="https://ecomzy.com" class="nav-logo">ecomzy<span>.</span></a>
+    <a href="https://ecomzy.com/free-online-store/" class="nav-cta">Start Your Free Store <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
   </div>
 </nav>
 
@@ -521,7 +524,7 @@ body.bar-hidden #navbar{top:0 !important}
         <h1>Launch your free store. Process your orders. <em>Win $1,000.</em> Every single day.</h1>
         <p class="hero-sub">The Order Processing Grant rewards you for doing the one thing that grows your business — fulfilling orders. Process all your orders today and you're in tomorrow's $1,000 draw.</p>
         <div class="hero-ctas">
-          <span class="btn-wrap"><a href="/free-online-store/" class="btn">Get My Free Store — Start Winning <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M4 9h10M10 5l4 4-4 4"/></svg></a></span>
+          <span class="btn-wrap"><a href="https://ecomzy.com/free-online-store/" class="btn">Get My Free Store — Start Winning <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M4 9h10M10 5l4 4-4 4"/></svg></a></span>
         </div>
         <p class="hero-fine"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Free 14-day trial &middot; $1,000 daily draws &middot; Cancel anytime</p>
       </div>
@@ -589,37 +592,37 @@ body.bar-hidden #navbar{top:0 !important}
   <div class="container">
     <div class="benefits-grid">
       <div class="b-card">
-        <span class="b-num">01</span>
+        
         <div class="b-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="15" x2="15" y2="15"/></svg></div>
         <h4>No application</h4>
         <p>Just process orders. You're automatically entered.</p>
       </div>
       <div class="b-card">
-        <span class="b-num">02</span>
+        
         <div class="b-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
         <h4>Real cash</h4>
         <p>Winnings hit your store balance the same morning.</p>
       </div>
       <div class="b-card">
-        <span class="b-num">03</span>
+        
         <div class="b-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M18.178 8c5.096 0 5.096 8 0 8-5.095 0-7.133-8-12.739-8-4.585 0-4.585 8 0 8 5.606 0 7.644-8 12.74-8z"/></svg></div>
         <h4>No caps</h4>
         <p>Win every day you qualify &mdash; no lifetime limit.</p>
       </div>
       <div class="b-card">
-        <span class="b-num">04</span>
+        
         <div class="b-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><path d="M8 14h.01M12 14h.01M16 14h.01M8 18h.01M12 18h.01M16 18h.01"/></svg></div>
         <h4>Starts during trial</h4>
         <p>First draw entry on day one &mdash; no waiting for month two.</p>
       </div>
       <div class="b-card">
-        <span class="b-num">05</span>
+        
         <div class="b-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12V7H5a2 2 0 0 1 0-4h14v4"/><path d="M3 5v14a2 2 0 0 0 2 2h16v-5"/><path d="M18 12a2 2 0 0 0 0 4h4v-4Z"/></svg></div>
         <h4>Store credit that compounds</h4>
         <p>Reinvest in your business &mdash; unlock more products, premium plans, or ad credits.</p>
       </div>
       <div class="b-card">
-        <span class="b-num">06</span>
+        
         <div class="b-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg></div>
         <h4>Cancel anytime</h4>
         <p>Free 14-day trial. No contracts, no pressure.</p>
@@ -700,7 +703,7 @@ body.bar-hidden #navbar{top:0 !important}
       <div class="how-step">
         <div class="how-num">1</div>
         <h3>Fulfill today&rsquo;s orders &rarr; enter the $1,000 draw</h3>
-        <p>Open your dashboard and ship every pending order. Takes a few minutes. Customers get their products, you earn profit &mdash; and you&rsquo;re entered into today&rsquo;s $1,000 draw.</p>
+        <p>Open your dashboard and process every pending order. Takes a few minutes. Customers get their products, you earn profit &mdash; and you&rsquo;re entered into today&rsquo;s $1,000 draw.</p>
       </div>
       <div class="how-step">
         <div class="how-num">2</div>
@@ -723,20 +726,6 @@ body.bar-hidden #navbar{top:0 !important}
       <h2>Every day is a <em>new chance.</em></h2>
     </div>
     <p class="psych-body">Here&rsquo;s what makes this different from lottery tickets: <strong>you&rsquo;re not gambling &mdash; you&rsquo;re getting paid to grow your business.</strong> Every order you process earns you real profit AND enters you into a <strong>$1,000 draw.</strong> Miss a day? No penalty &mdash; just start a new streak on Monday. But if you show up seven days in a row, that <strong>$5,000 Jackpot</strong> could be yours.</p>
-  </div>
-</section>
-
-<!-- WHY WE BUILT THIS -->
-<section class="why-built dark">
-  <div class="container">
-    <div class="overline" style="text-align:center">Why we built this</div>
-    <h2>Most platforms take your money.<br><em>We give it back.</em></h2>
-    <div class="why-built-body">
-      <p>On most platforms, running a store is a grind. You show up, you process orders, you handle customers &mdash; and the platform you rely on just skims a fee off the top and calls it a day.</p>
-      <p><strong>We wanted to flip that.</strong> The Order Processing Grant is our way of saying: every day you put in the work, we have skin in your game. Win a daily draw, stack a seven-day streak, unlock the Jackpot &mdash; real cash, no strings.</p>
-      <p>Your success is literally our business model. The more you grow, the more we grow. That's it.</p>
-    </div>
-    <div class="why-built-sig">The Ecomzy team &middot; California, USA</div>
   </div>
 </section>
 
@@ -803,7 +792,7 @@ body.bar-hidden #navbar{top:0 !important}
       </div>
     <h2>Tonight&rsquo;s $1,000 draw starts at midnight</h2>
     <p class="body-text center" style="max-width:640px;margin:0 auto 32px">Launch your free store today, process today&rsquo;s orders, and you&rsquo;re in tomorrow&rsquo;s draw. Seven days of consistency stacks a $5,000 Jackpot on top.</p>
-    <a href="/free-online-store/" class="btn btn-white">Get My Free Store — Start Winning <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M4 9h10M10 5l4 4-4 4"/></svg></a>
+    <a href="https://ecomzy.com/free-online-store/" class="btn btn-white">Get My Free Store — Start Winning <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M4 9h10M10 5l4 4-4 4"/></svg></a>
     <p class="fine-print" style="color:rgba(255,255,255,.5);margin-top:14px"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Free 14-day trial &middot; $1,000 daily draws &middot; Cancel anytime</p>
   </div>
 </section>

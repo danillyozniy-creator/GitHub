@@ -559,7 +559,7 @@ nav.scrolled { box-shadow:0 2px 30px rgba(0,0,0,.4); background:rgba(17,17,20,.9
 .lp-cta-note svg { flex-shrink:0; color:#5eead4; stroke:#5eead4; }
 
 /* ===== HOW IT WORKS (PILLAR) ===== */
-.pillar{padding:120px 0;position:relative;overflow:visible}
+.pillar{padding:100px 0;position:relative;overflow:visible}
 .pillar-inner{display:grid;grid-template-columns:5fr 6fr;gap:80px;align-items:center;overflow:visible}
 .pillar-text{max-width:480px}
 .pillar-num{font-family:var(--font-display);font-size:clamp(64px,8vw,96px);font-weight:700;line-height:1;letter-spacing:-.04em;color:rgba(0,0,0,.06);margin-bottom:16px}
@@ -640,13 +640,13 @@ nav.scrolled { box-shadow:0 2px 30px rgba(0,0,0,.4); background:rgba(17,17,20,.9
 .faq-wrap .faq-group{margin-bottom:0}
 .faq-wrap .faq-group + .faq-group{margin-top:0}
 .faq-item{border-bottom:1px solid rgba(0,0,0,.08)}
-.faq-q{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:15px 0;font-size:14px;font-weight:600;color:rgba(0,0,0,.75);cursor:pointer;transition:color .2s;user-select:none}
+.faq-q{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:15px 0;font-size:18px;font-weight:600;color:rgba(0,0,0,.75);cursor:pointer;transition:color .2s;user-select:none}
 .faq-q:hover{color:#111114}
 .faq-chevron{width:22px;height:22px;border-radius:50%;border:1px solid rgba(0,0,0,.12);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .3s;background:rgba(0,0,0,.03)}
 .faq-chevron svg{width:10px;height:10px;stroke:rgba(0,0,0,.4);fill:none;stroke-width:2;stroke-linecap:round;transition:transform .3s}
 .faq-item.open .faq-chevron{background:rgba(20,184,166,.15);border-color:rgba(20,184,166,.4)}
 .faq-item.open .faq-chevron svg{stroke:var(--teal-bright);transform:rotate(180deg)}
-.faq-a{font-size:13px;color:rgba(0,0,0,.45);line-height:1.7;max-height:0;overflow:hidden;transition:max-height .4s var(--ease-smooth),padding .3s}
+.faq-a{font-size:17px;color:rgba(0,0,0,.45);line-height:1.7;max-height:0;overflow:hidden;transition:max-height .4s var(--ease-smooth),padding .3s}
 .faq-item.open .faq-a{max-height:300px;padding-bottom:16px}
 
 /* ===== TRUST STRIP ===== */
@@ -832,7 +832,7 @@ nav.scrolled { box-shadow:0 2px 30px rgba(0,0,0,.4); background:rgba(17,17,20,.9
   .nav-mobile-toggle.mob-active span:nth-child(2){opacity:0}
   .nav-mobile-toggle.mob-active span:nth-child(3){transform:rotate(-45deg)}
   body.mob-menu-open{overflow:hidden}
-  .hero { padding:120px 0 60px; }
+  .hero { padding:100px 0 60px; }
   .hero h1 { font-size:32px; }
   .hero-sub { font-size:16px; }
   .hero-actions { flex-direction:column; }
@@ -1413,21 +1413,21 @@ body.bar-hidden #navbar{top:0 !important}
 @media(max-width:480px){.cta-note:has(svg),.footer-cta-note:has(svg),.hero-fine:has(svg),.fine-print:has(svg),.hero-note:has(svg),.lp-cta-note:has(svg){font-size:10px!important}}
 @media(max-width:380px){.cta-note:has(svg),.footer-cta-note:has(svg),.hero-fine:has(svg),.fine-print:has(svg),.hero-note:has(svg),.lp-cta-note:has(svg){font-size:9px!important}}
 </style>
-</head>
+<style>.hero-badge{text-transform:uppercase!important;letter-spacing:.06em!important}</style></head>
 <body>
 
 <!-- ANNOUNCEMENT BAR -->
 <div class="announce-bar">
-  <span class="pulse"></span><strong>$19,500 weekly</strong><span class="ab-more"> <span class="sep">·</span> Grant Program for every Ecomzy store</span> <span class="sep">·</span> <a href="/free-online-store/">Claim yours &rarr;</a>
+  <span class="pulse"></span><strong>$19,500 weekly</strong><span class="ab-more"> <span class="sep">·</span> Grant Program for every Ecomzy store</span> <span class="sep">·</span> <a href="https://ecomzy.com/free-online-store/">Claim yours &rarr;</a>
 </div>
 
 <!-- NAV (conversion-focused: logo + CTA only) -->
 <nav id="navbar">
   <div class="nav-glow"></div>
   <div class="nav-inner">
-    <a href="/home/" class="nav-logo">ecomzy<span>.</span></a>
+    <a href="https://ecomzy.com" class="nav-logo">ecomzy<span>.</span></a>
     <ul class="nav-links">
-      <li><a href="/free-online-store/" class="nav-cta">Start Your Free Store <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
+      <li><a href="https://ecomzy.com/free-online-store/" class="nav-cta">Start Your Free Store <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
     </ul>
     <button class="nav-mobile-toggle liquid-btn" aria-label="Menu"><span></span><span></span><span></span></button>
   </div>
@@ -1452,7 +1452,7 @@ body.bar-hidden #navbar{top:0 !important}
       <h1>Launch your free store and win up to <em>$19,500 every week.</em></h1>
       <p class="hero-sub">We don't just give you a store. We fund your growth. Every Ecomzy store owner gets $19,500 in business grants distributed every single week &mdash; no loans, no strings.</p>
       <div class="hero-actions">
-        <a href="/free-online-store/" class="btn-primary liquid-btn">Claim My Free Store + Grant Access <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M4 9h10M10 5l4 4-4 4"/></svg></a>
+        <a href="https://ecomzy.com/free-online-store/" class="btn-primary liquid-btn">Claim My Free Store + Grant Access <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M4 9h10M10 5l4 4-4 4"/></svg></a>
       </div>
       <p class="hero-note"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Free 14-day trial &middot; Grants start on day one &middot; Cancel anytime</p>
 
@@ -1609,8 +1609,8 @@ body.bar-hidden #navbar{top:0 !important}
         <span class="offer-eyebrow">&#128176; Win every week</span>
         <h2>Your business gets funded <em>from day one.</em></h2>
         <p class="offer-sub">Most platforms take your money. We give it back. The Ecomzy Grant Program puts $19,500 on the table every single week &mdash; business funding for store owners who show up and put in the work.</p>
-        <a href="/free-online-store/" class="btn-primary liquid-btn">Unlock Grant Access <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M4 9h10M10 5l4 4-4 4"/></svg></a>
-        <p class="hero-note"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#5eead4" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Free 14-day trial &middot; Grants start day one</p>
+        <a href="https://ecomzy.com/free-online-store/" class="btn-primary liquid-btn">Unlock Grant Access <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M4 9h10M10 5l4 4-4 4"/></svg></a>
+        <p class="hero-note" style="font-size:13px !important"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#5eead4" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Free 14-day trial &middot; Grants start day one</p>
       </div>
 
       <div class="offer-right reveal rd2">
@@ -1718,7 +1718,7 @@ body.bar-hidden #navbar{top:0 !important}
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Run ads all week &rarr; $5,000 draw</li>
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>Add 50+ products &rarr; $2,500 draw</li>
         </ul>
-        <a href="/free-online-store/" class="btn-primary">Start Now &mdash; It's Free <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M4 9h10M10 5l4 4-4 4"/></svg></a>
+        <a href="https://ecomzy.com/free-online-store/" class="btn-primary">Start Now &mdash; It's Free <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M4 9h10M10 5l4 4-4 4"/></svg></a>
       </div>
       <div class="pillar-visual reveal rd2">
         <div class="glass-panel">
@@ -1763,7 +1763,7 @@ body.bar-hidden #navbar{top:0 !important}
       <div class="lp-cta-frost"></div>
       <h2 class="section-title">Your next paycheck could<br>land <em>this Monday.</em></h2>
       <p class="section-sub">Launch your free Ecomzy store today. Grants start day one &mdash; even during your 14-day trial. $19,500 in grants every week.</p>
-      <a href="/free-online-store/" class="btn-primary liquid-btn">Claim My Free Store + Grant Access <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M4 9h10M10 5l4 4-4 4"/></svg></a>
+      <a href="https://ecomzy.com/free-online-store/" class="btn-primary liquid-btn">Claim My Free Store + Grant Access <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M4 9h10M10 5l4 4-4 4"/></svg></a>
       <p class="lp-cta-note"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#5eead4" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Free 14-day trial &middot; No experience needed &middot; Cancel anytime</p>
       <div style="text-align:center"><div class="cta-ticker"><span class="t-dot"></span><span class="t-text" id="ctaTicker"><strong>Sarah from TX</strong> claimed 2 min ago</span></div></div>
     </div>
